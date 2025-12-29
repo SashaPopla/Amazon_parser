@@ -1,5 +1,7 @@
+#!/usr/bin/env bash
 set -o errexit
 
+chmod +x render-build.sh
 pip install -r requirements.txt
 
 echo "Downloading Chrome..."
