@@ -1,0 +1,45 @@
+.product-img {
+    height: 180px;
+    object-fit: contain;
+    mix-blend-mode: multiply;
+    /* Прибирає білий фон картинки на сірому фоні */
+}
+
+.card {
+    transition: transform 0.2s;
+    border: none;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.rank-badge {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 1rem;
+    border-radius: 0;
+    z-index: 10;
+}
+
+.bullet-list {
+    font-size: 0.8rem;
+    color: #555;
+    padding-left: 1.2rem;
+    margin-bottom: 0.5rem;
+    text-align: left;
+}
+
+.bullet-list li {
+    margin-bottom: 3px;
+}
+
+.prime-badge {
+    color: #00a8e1;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 0.9em;
+}
